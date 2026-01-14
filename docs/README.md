@@ -4,16 +4,46 @@ Welcome to OctoAcme's project management documentation! This README provides a b
 
 ## Key Workflows
 
-OctoAcme follows a structured project lifecycle that emphasizes iterative delivery and clear ownership. Projects begin with **initiation**, where we validate the business need, define success metrics, create a project one-pager, and align stakeholders before moving forward. During **planning**, the team holds a kickoff meeting, creates a prioritized backlog with acceptance criteria, estimates scope, and develops a release plan with clear milestones. The **execution** phase focuses on day-to-day delivery using project boards, following pull request workflows with automated testing and code reviews, and maintaining team rhythm through daily standups and weekly syncs. When ready to ship, the **release and deployment** process ensures all acceptance criteria are met, CI passes, smoke tests are run in staging, and rollback plans are documented before deploying to production. After each sprint, release, or milestone, teams conduct **retrospectives** to capture learnings and convert them into actionable improvements, focusing on what went well, what could be improved, and defining 2-3 prioritized action items with clear owners and timelines.
+OctoAcme follows a structured project lifecycle that emphasizes iterative delivery and clear ownership:
+
+- **Initiation**: Validate the business need, define success metrics, create a project one-pager, and align stakeholders
+- **Planning**: Hold kickoff meetings, create prioritized backlogs with acceptance criteria, estimate scope, and develop release plans with clear milestones
+- **Execution**: Deliver using project boards, follow pull request workflows with automated testing and code reviews, and maintain team rhythm through daily standups and weekly syncs
+- **Release and Deployment**: Ensure acceptance criteria are met, CI passes, smoke tests run in staging, and rollback plans are documented before deploying to production
+- **Retrospectives and Continuous Improvement**: After each sprint, release, or milestone, capture learnings and convert them into 2-3 prioritized action items with clear owners and timelines
 
 ## Roles and Responsibilities
 
-OctoAcme projects involve three core roles working collaboratively: **Project Managers (PM)** coordinate delivery activities, manage schedules and risks, facilitate meetings, maintain project documentation, and ensure transparent communication across stakeholders; **Product Managers (PdM)** define problem statements and success metrics, prioritize the roadmap and backlog, collaborate on trade-offs, and validate solutions through user research and metrics; and **Developers** implement features to meet acceptance criteria, write tests and documentation, participate in design and code reviews, assist with estimation, and identify technical risks. These roles are supported by QA/Testing professionals who validate quality and acceptance criteria, as well as stakeholders who provide inputs and approvals throughout the project lifecycle.
+OctoAcme projects involve three core roles working collaboratively:
+
+- **Project Managers (PM)**: Coordinate delivery activities, manage schedules and risks, facilitate meetings, maintain project documentation, and ensure transparent communication across stakeholders
+- **Product Managers (PdM)**: Define problem statements and success metrics, prioritize the roadmap and backlog, collaborate on trade-offs, and validate solutions through user research and metrics
+- **Developers**: Implement features to meet acceptance criteria, write tests and documentation, participate in design and code reviews, assist with estimation, and identify technical risks
+
+These roles are supported by QA/Testing professionals who validate quality and acceptance criteria, as well as stakeholders who provide inputs and approvals throughout the project lifecycle.
 
 ## Communication and Collaboration
 
-Clear, consistent communication is essential to OctoAcme's success. The team maintains a regular cadence with **daily standups** (15 minutes) focused on progress, blockers, and dependencies; **weekly syncs** between PM and PdM to align on priorities and risks; **twice-weekly standups** for the delivery team; and **monthly stakeholder updates** to keep everyone informed. Weekly status updates follow a structured template covering progress, next steps, risks and blockers, and decisions needed. Demonstrations are scheduled at the end of each sprint or milestone to showcase progress. For escalations, the team follows a clear path: team-level triage in daily standups, PM escalation to Product Lead and dependent teams when needed, and sponsor-level escalation for business-impacting issues. Security incidents follow a dedicated runbook with immediate notification to Security on-call.
+Clear, consistent communication is essential to OctoAcme's success. The team maintains a regular cadence:
+
+- **Daily standups** (15 minutes): Focus on progress, blockers, and dependencies
+- **Weekly syncs**: PM and PdM align on priorities and risks; delivery team meets twice weekly
+- **Monthly stakeholder updates**: Keep everyone informed of progress
+- **Sprint/milestone demos**: Showcase completed work
+
+Weekly status updates follow a structured template covering progress, next steps, risks and blockers, and decisions needed. For escalations, the team follows a clear path: team-level triage in daily standups, PM escalation to Product Lead and dependent teams when needed, and sponsor-level escalation for business-impacting issues.
 
 ## Quality Assurance and Risk Management
 
-OctoAcme maintains high quality through comprehensive testing and proactive risk management. Quality practices include unit tests for new logic, integration tests where applicable, end-to-end smoke tests for critical flows before release, security scanning in CI, and manual QA for feature acceptance when needed. Pull requests follow best practices: keeping changes small (≤400 lines when possible), including issue links and acceptance criteria in descriptions, running automated tests and linting before requesting review, and requiring at least one approval before merging. Risk management is systematic and ongoing: teams maintain a **Risk Register** tracking ID, description, impact, likelihood, owner, mitigation plan, and status for each identified risk. Risks are identified during planning and throughout execution, assessed for impact and likelihood, mitigated through actions and contingency plans, and monitored during weekly syncs with status updates. This continuous attention to quality and risk ensures reliable delivery while maintaining psychological safety and encouraging feedback and learning across the organization.
+OctoAcme maintains high quality through comprehensive testing and proactive risk management:
+
+**Quality Practices**:
+- Unit tests for new logic, integration tests where applicable, and end-to-end smoke tests for critical flows
+- Security scanning in CI and manual QA for feature acceptance
+- Pull requests kept small (≤400 lines), with issue links and acceptance criteria, automated tests and linting, and at least one approval before merging
+
+**Risk Management**:
+- Maintain a Risk Register tracking ID, description, impact, likelihood, owner, mitigation plan, and status for each identified risk
+- Risks are identified during planning and execution, assessed for impact and likelihood, mitigated through actions and contingency plans, and monitored during weekly syncs
+
+This continuous attention to quality and risk ensures reliable delivery while maintaining psychological safety and encouraging feedback and learning across the organization.
