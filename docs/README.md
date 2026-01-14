@@ -14,13 +14,21 @@ OctoAcme follows a structured project lifecycle that emphasizes iterative delive
 
 ## Roles and Responsibilities
 
-OctoAcme projects involve three core roles working collaboratively:
+OctoAcme projects involve multiple roles working collaboratively to deliver value:
 
+**Core Delivery Roles**:
 - **Project Managers (PM)**: Coordinate delivery activities, manage schedules and risks, facilitate meetings, maintain project documentation, and ensure transparent communication across stakeholders
 - **Product Managers (PdM)**: Define problem statements and success metrics, prioritize the roadmap and backlog, collaborate on trade-offs, and validate solutions through user research and metrics
 - **Developers**: Implement features to meet acceptance criteria, write tests and documentation, participate in design and code reviews, assist with estimation, and identify technical risks
 
-These roles are supported by QA/Testing professionals who validate quality and acceptance criteria, as well as stakeholders who provide inputs and approvals throughout the project lifecycle.
+**Supporting and Specialized Roles**:
+- **Business Analysts**: Bridge business and technical teams, elicit requirements, document workflows, and ensure solutions align with business objectives
+- **UX Designers**: Design intuitive user experiences, create wireframes and prototypes, ensure accessibility, and advocate for user needs
+- **Scrum Masters**: Facilitate agile ceremonies, remove team impediments, coach on agile practices, and drive continuous improvement
+- **DevOps Engineers**: Build and maintain CI/CD pipelines, manage infrastructure as code, ensure operational reliability, and support deployments
+- **QA Leads**: Plan and coordinate testing activities, define acceptance criteria, ensure comprehensive test coverage, and provide release readiness assessments
+
+These roles collaborate throughout the project lifecycle, with clear handoff points and communication patterns. For detailed role descriptions and interactions, see [octoacme-roles-and-personas.md](./octoacme-roles-and-personas.md). For guidance on collaboration and handoffs between roles, see [octoacme-cross-role-collaboration-guide.md](./octoacme-cross-role-collaboration-guide.md).
 
 ## Communication and Collaboration
 
@@ -32,6 +40,10 @@ Clear, consistent communication is essential to OctoAcme's success. The team mai
 - **Sprint/milestone demos**: Showcase completed work
 
 Weekly status updates follow a structured template covering progress, next steps, risks and blockers, and decisions needed. For escalations, the team follows a clear path: team-level triage in daily standups, PM escalation to Product Lead and dependent teams when needed, and sponsor-level escalation for business-impacting issues.
+
+## Getting Started and Onboarding
+
+New team members should use the [Team Member Onboarding Checklist](./octoacme-team-member-onboarding-checklist.md) to get oriented quickly. This checklist provides role-specific guidance for the first 30 days and helps new members understand their responsibilities, key interactions, and how to contribute effectively from day one.
 
 ## Quality Assurance and Risk Management
 
